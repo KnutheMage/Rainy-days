@@ -221,3 +221,8 @@ footer ul li a::before {
         border-width: 2px;
     }
 }
+.promo-text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 29px;
+    font-weight: 400;
+}
