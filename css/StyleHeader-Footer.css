@@ -1,4 +1,7 @@
-/* Øverste linje: logo + søkefelt + handlekurv */
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
 .top-row {
     width: 100%;
     display: flex;
@@ -7,7 +10,6 @@
     margin-bottom: 0px;
 }
 
-/* Søkefelt + handlekurv */
 .top-right-bar {
     display: flex;
     align-items: center;
@@ -40,7 +42,7 @@ header {
     flex-direction: column;
     align-items: stretch;
     gap: 30px;
-    padding: 0;              /* FJERNER padding over header */
+    padding: 0;
 }
 
 /* Hamburger toggle */
@@ -121,7 +123,7 @@ h1 {
 footer {
     width: 100%;
     background-color: transparent;
-    padding: 0;              /* FJERNER padding under footer */
+    padding: 0;
     margin-top: 100px;
 }
 
@@ -158,7 +160,6 @@ footer ul li a:hover {
     border-color: #999;
 }
 
-/* Stjerner foran alle linker */
 header nav ul li a::before,
 footer ul li a::before {
     content: "★";
@@ -171,22 +172,17 @@ footer ul li a::before {
 /* MOBILVISNING */
 @media (max-width: 900px) {
 
-    /* Hamburger vises */
     .hamburger {
         display: flex;
     }
 
-    /* Skjul menyen */
     header nav {
         display: none;
     }
 
-    /* Vis menyen når hamburger er aktiv */
     .menu-toggle:checked ~ nav {
         display: block;
     }
-
-    /* Mobilmeny */
     header nav ul {
         grid-template-columns: 1fr;
         padding: 20px;
@@ -199,8 +195,6 @@ footer ul li a::before {
         text-align: center;
         width: 100%;
     }
-
-    /* H1 på mobil */
     h1 {
         font-size: 8vw;
     }
