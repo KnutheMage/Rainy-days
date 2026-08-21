@@ -1,12 +1,10 @@
-/* Bildet styrer alt */
 .promo-image {
-    height: 60vh;        /* Bildet er 60% av vinduets høyde */
+    height: 60vh;
     width: auto;
     object-fit: cover;
     border-radius: 10px;
 }
 
-/* Container følger bildet */
 .main-promo {
     height: 60vh;        
     font-size: 5vh;      
@@ -15,12 +13,9 @@
     justify-content: space-between;
     background-color: #FFD700;
     padding: 0 0px;
-
-    /* ⭐ Legger til mer plass under promo-seksjonen */
     margin-bottom: 1000px; 
 }
 
-/* Teksten følger containeren */
 .promo-text {
     font-size: 2.5em;
     font-style: italic;
@@ -30,30 +25,27 @@
     line-height: 1.1;
 }
 
-/* ⭐ MOBILVISNING – TEKST OVER BILDE ⭐ */
 @media (max-width: 900px) {
 
     .main-promo {
-        height: auto;               /* Ikke lås høyden på mobil */
-        flex-direction: column;     /* Stack: tekst → bilde */
+        height: auto;
+        flex-direction: column;
         padding: 20px;
         text-align: center;
-
-        /* Litt mindre spacing på mobil */
         margin-bottom: 60px;
     }
 
     .promo-text {
-        width: 100%;                /* Full bredde */
-        font-size: 8vw;             /* Større tekst på mobil */
-        order: 1;                   /* Tekst først */
+        width: 100%;
+        font-size: 8vw;
+        order: 1;
         text-align: center;
     }
 
     .promo-image {
-        width: 90%;                 /* Større bilde på mobil */
-        height: auto;               /* Fjern 60vh på mobil */
-        order: 2;                   /* Bilde etter tekst */
+        width: 90%;
+        height: auto;
+        order: 2;
         border-radius: 20px;
     }
 }

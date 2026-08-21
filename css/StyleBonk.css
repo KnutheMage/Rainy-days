@@ -1,9 +1,9 @@
-/* Container som holder bildet midt i vinduet */
+
 .error-bonk {
-    height: 100vh;               /* Full høyde av vinduet */
+    height: 100vh;
     display: flex;
-    justify-content: center;     /* Horisontal sentrering */
-    align-items: center;         /* Vertikal sentrering */
+    justify-content: center;
+    align-items: center;
 }
 
 /* Selve bildet */

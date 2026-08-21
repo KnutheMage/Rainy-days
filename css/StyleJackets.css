@@ -1,4 +1,4 @@
-/* GRID – 3 bred × 2 høy (6 grupper) */
+
 .jacket-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -7,19 +7,17 @@
     padding: 40px 0;
 }
 
-/* Gruppe som inneholder bilde + tekst */
 .jacket-group {
     border: 3px solid #ffffff;
     background-color: #E1E6DB;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column; /* Bilde over tekst */
+    flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-/* Bilder */
 .jacket-group img {
     width: 90%;
     height: auto;
@@ -29,7 +27,6 @@
     box-sizing: border-box;
 }
 
-/* Tekst */
 .jacket-group p {
     background-color: #E1E6DB;
     padding: 20px;
@@ -41,11 +38,10 @@
     margin: 0;
 }
 
-/* Mobilvisning */
 @media (max-width: 900px) {
 
     .jacket-grid {
-        grid-template-columns: 1fr; /* EN KOLONNE */
+        grid-template-columns: 1fr;
     }
 
     .jacket-group p {
@@ -53,16 +49,14 @@
     }
 }
 
-/* Grid med 3 kolonner: tekst tar 2, bilde tar 1 */
 .warmth-row {
     display: grid;
-    grid-template-columns: 2fr 1fr;   /* Tekst = 2 kolonner, bilde = 1 */
+    grid-template-columns: 2fr 1fr;
     width: 100%;
     gap: 0;
     padding: 40px 0;
 }
 
-/* Tekstblokken */
 .warmth-text {
     background-color: #ffffff;
     border: 3px solid #ffffff;
@@ -70,19 +64,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;                 /* Teksten står til venstre */
+    text-align: left;
 }
 
-/* Tekst-styling */
+
 .warmth-text h1 {
-    font-size: 5vw;                   /* Stor, men balansert */
+    font-size: 5vw;
     font-style: italic;
     font-weight: 300;
     line-height: 1.1;
     margin: 0;
 }
 
-/* Bildet i kolonne 3 */
+
 .warmth-image {
     border: 3px solid #ffffff;
     background-color: #ffffff;
@@ -92,9 +86,9 @@
     align-items: center;
 }
 
-/* Bildet blir mye mindre */
+
 .warmth-image img {
-    width: 100%;          /* Mye mindre bilde */
+    width: 100%;
     height: auto;
     background-color: #ffffff;
     padding: 1vw;
@@ -102,10 +96,10 @@
     box-sizing: border-box;
 }
 
-/* Mobilvisning */
+
 @media (max-width: 900px) {
     .warmth-row {
-        grid-template-columns: 1fr;   /* Alt under hverandre */
+        grid-template-columns: 1fr;
     }
 
     .warmth-text h1 {
@@ -113,6 +107,6 @@
     }
 
     .warmth-image img {
-        width: 50%;      /* Litt større på mobil */
+        width: 50%;
     }
 }
