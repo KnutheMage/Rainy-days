@@ -1,0 +1,75 @@
+/* Hele boksen */
+.jacket-info {
+    width: 1264px;              /* Ny bredde */
+    height: 566px;              /* Ny høyde */
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #E1E6DB;
+    border-radius: 20px;
+    box-sizing: border-box;
+
+    /* ⭐ Sentrer boksen uten å flytte noe inni */
+    margin: 80px auto;          /* Midt mellom header og footer */
+}
+
+/* Venstre side */
+.jacket-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Bilde */
+.jacket-image {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Pris */
+.jacket-price {
+    font-size: 28px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Høyre side */
+.jacket-right {
+    max-width: 600px;
+}
+
+/* ⭐ BESKRIVELSE – STØRRE TEKST ⭐ */
+.jacket-description {
+    font-size: 150%;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+/* ⭐ Mobilvisning – enda større tekst ⭐ */
+@media (max-width: 900px) {
+
+    .jacket-info {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+
+        /* Mobil skal ikke sentreres med margin */
+        margin: 40px 0;
+    }
+
+    .jacket-image {
+        width: 80%;
+    }
+
+    .jacket-right {
+        max-width: 100%;
+    }
+
+    .jacket-description {
+        font-size: 6vw;
+    }
+}

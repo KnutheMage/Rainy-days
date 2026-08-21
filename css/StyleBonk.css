@@ -1,0 +1,15 @@
+/* Container som holder bildet midt i vinduet */
+.error-bonk {
+    height: 100vh;               /* Full høyde av vinduet */
+    display: flex;
+    justify-content: center;     /* Horisontal sentrering */
+    align-items: center;         /* Vertikal sentrering */
+}
+
+/* Selve bildet */
+.error-bonk img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
