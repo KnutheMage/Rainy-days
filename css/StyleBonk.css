@@ -6,9 +6,8 @@
     align-items: center;
 }
 
-/* Selve bildet */
 .error-bonk img {
-    max-width: 80;
+    max-width: 90vw;
     height: auto;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
