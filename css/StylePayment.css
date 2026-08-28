@@ -125,3 +125,15 @@
         aspect-ratio: auto;
     }
 }
+.continue-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.continue-button {
+    display: inline-block;
+    background: #E1E6DB;
+    padding: 20px 30px;
+    border-radius: 15px;
+}
