@@ -51,12 +51,12 @@
     position: relative;
 }
 .detail-box .label {
-    font-size: 40px;
+    font-size: 30px;
     color: #555;
     margin: 0 0 2px 0;         
 }
 .detail-box .value {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     margin: 0;                 
 }
@@ -67,7 +67,7 @@
     color: #333;
     cursor: pointer;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
 }
 .shipping-box h2 {
     font-size: 28px;
@@ -101,14 +101,6 @@
     display: block;
     text-decoration: none;
     color: inherit;
-}
-
-.click-wrapper:link,
-.click-wrapper:visited,
-.click-wrapper:hover,
-.click-wrapper:active {
-    color: inherit;
-    text-decoration: none;
 }
 
 
