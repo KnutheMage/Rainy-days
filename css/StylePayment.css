@@ -96,15 +96,13 @@
     width: 100%;
     box-sizing: border-box;
     font-size: 40px;
-
- .click-wrapper {
+}
+.click-wrapper {
     display: block;
     text-decoration: none;
     color: inherit;
 }
 
-
-}
 @media (max-width: 900px) {
     .payment-shipping-wrapper {
         flex-direction: column;
