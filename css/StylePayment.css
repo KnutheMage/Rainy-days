@@ -51,12 +51,12 @@
     position: relative;
 }
 .detail-box .label {
-    font-size: 30px;
+    font-size: 25px;
     color: #555;
     margin: 0 0 2px 0;         
 }
 .detail-box .value {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     margin: 0;                 
 }
