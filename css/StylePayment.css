@@ -8,12 +8,11 @@
 .card-details,
 .shipping-box {
     width: 40%;
-    aspect-ratio: 1 / 1;
+    min-height: 600px;
     background: #E1E6DB;
     padding: 25px;
     border-radius: 12px;
     box-sizing: border-box;
-    overflow-y: auto;
 }
 .card-top-row {
     display: flex;
